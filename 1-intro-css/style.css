@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+h1{
+    color:brown;
+}
+
+p{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none; 
+    background-color: rgb(109, 35, 178);
+    color: white;
+
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.ball{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: chartreuse;
+    border: 3px solid black
+}
+
+.text-important{
+    font-size: 2rem;
+    background-color: yellow;
+    font-style: oblique;
+}
+
+#tituloWeb{
+    font-family: "Sour Gummy", sans-serif;
+}
