@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Padre */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    margin: 40px auto;
+}
+
+/* Hijo */
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 3px solid black;
+    color: white;
+}
