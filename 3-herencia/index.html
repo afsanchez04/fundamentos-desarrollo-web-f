@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herencia CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .container{
+            background-color: bisque;
+            padding: 20px;
+            opacity: 1;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Lista de <span>enlaces</span> </h1>
+        <p>Estas son las mejores emisoras online</p>
+        <ul style="padding: 10px; border: 1px solid black; width: 300px">
+            <li>
+                <a href="#" style="font-weight: bold;">Escucha radio</a>
+            </li>
+            <li>
+                <a href="#">Escucha radio</a>
+            </li>
+        </ul>
+        <p class="diferente">Este párrafo es independiente.</p>
+        <button>Click</button>
+    </div>
+
+    <h1 id="red" class="blue">Especificidad</h1>
+    
+</body>
+</html>
