@@ -189,6 +189,17 @@ header{
     cursor: pointer;
 }
 
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+}
+.skills-content > div{
+    display: grid;
+    row-gap: 10px;
+}
+
 
 /* Primer breakpoint tablet*/
 @media screen and (max-width: 800px){
@@ -206,12 +217,15 @@ header{
     .img-pizza, .img-hoja, .img-tomato {
         width: 230px;
     }
-    .productos-content {
+    /* .productos-content {
         flex-wrap: wrap;
     }
     .product-card {
         flex: none;
         width: 49%;
+    } */
+    .skills-content{
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
@@ -221,10 +235,20 @@ header{
     body{
         /* background-color: blueviolet; */
     }
-    .product-card {
+    .productos-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* .product-card {
         flex: none;
         width: 80%;
         margin: auto;
+    } */
+    .skills-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-content > div{
+        text-align: center;
     }
 }
 
